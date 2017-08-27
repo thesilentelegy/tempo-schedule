@@ -1,0 +1,36 @@
+{
+  "short_name": "Tempo",
+  "name": "Tempo",
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f5f5",
+  "theme_color": "#F1755A",
+  "icons": [
+    {
+      "src": "icons/icon-1x.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "icons/icon-2x.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "icons/icon-4x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }, 
+    {
+      "src": "icons/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    }, 
+    {
+      "src": "icons/ms-icon-144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    }
+  ]
+}

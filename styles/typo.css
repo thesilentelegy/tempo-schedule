@@ -1,0 +1,21 @@
+/**
+ * Circular Font Face
+ */
+
+@font-face {
+	font-family: Circular;
+	src: url('../assets/lineto-circular-book.ttf');
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: Circular;
+	src: url('../assets/lineto-circular-medium.ttf');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: Circular;
+	src: url('../assets/lineto-circular-bold.ttf');
+	font-weight: 600;
+}

@@ -1,2 +1,2 @@
-# tempo-schedule
-A minimalist schedule app
+# tempo-lite
+A productivity app with style

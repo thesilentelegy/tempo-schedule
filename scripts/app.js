@@ -113,3 +113,15 @@ var Tempo = new Vue({
 		]
 	}
 });
+
+// Gestures
+var gestureEl = document.querySelector('.events-list');
+var gesture = new Hammer(gestureEl);
+
+gesture.on('swipeleft', function() {
+	Tempo.currentDay = Tempo.currentDay == 4 ? Tempo.currentDay : ++Tempo.currentDay;
+});
+
+gesture.on('swiperight', function() {
+	Tempo.currentDay = Tempo.currentDay == 0 ? Tempo.currentDay : --Tempo.currentDay;
+});
